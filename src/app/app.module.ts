@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import {IndexModule} from './pages/index/index.module';
 import {PortifolioModule} from './pages/portifolio/portifolio.module';
+import {NotfoundModule} from './pages/notfound/notfound.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {PortifolioModule} from './pages/portifolio/portifolio.module';
     BrowserModule,
     AppRoutingModule,
     IndexModule,
-    PortifolioModule
+    PortifolioModule,
+    NotfoundModule
   ],
   providers: [],
   bootstrap: [AppComponent]
