@@ -6,7 +6,7 @@ import { MessegerComponent} from './pages/notfound/messeger/messeger.component';
 
 const routes: Routes = [
   {path:'', component: TitleComponent, pathMatch:'full'},
-  {path:'portfolio', component: CardComponent},
+  {path:'portfolio/:id', component: CardComponent},
   // {path:'**', redirectTo:''} //neste caso retorna para a pagina principal TitleComponent
   {path:'**', component: MessegerComponent}
 ];
