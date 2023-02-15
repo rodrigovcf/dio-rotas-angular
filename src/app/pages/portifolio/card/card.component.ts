@@ -20,6 +20,11 @@ export class CardComponent implements OnInit{
     this.parametrizador.queryParams.subscribe(
       res => console.log(res)
     )
+
+    //Pega os parametros filhos
+    this.parametrizador.firstChild?.params.subscribe(
+      res => console.log(res)
+    )
   }
   ngOnInit(): void {
     setInterval(() => {
